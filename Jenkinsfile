@@ -142,6 +142,7 @@ pipeline{
             }
   }
   post {
+  #!/usr/bin/env groovy
           always{
               if ( currentBuild.result == "SUCCESS" ) {
                       slackSend color: "good", message: "CONGRATULATION: Job ${env.JOB_NAME} with buildnumber ${env.BUILD_NUMBER} was successful ! more info ${env.BUILD_URL}"
