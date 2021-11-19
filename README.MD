@@ -1,3 +1,5 @@
+[![Build Status](http://54.147.58.216:8080/buildStatus/icon?job=deploy-st)](http://54.147.58.216:8080/job/deploy-st/)
+
 Static Website Example
 ----------------------
 
